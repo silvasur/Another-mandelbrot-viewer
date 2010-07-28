@@ -1,0 +1,23 @@
+Compiling mandelbrot on Linux:
+	You will need the devel files for the allegro graphics library. You
+	should be able to find them via yum/zypper/apt-get or whatever the
+	package manager of your distro is called. Of course you will also need
+	GCC and the make command.
+	If you have everything,just type "make" into a console and everything
+	should compile in some seconds.
+
+Compiling mandelbrot on Windows:
+	You need a C compiler. I prefer mingw32 (wxDevC++), but anyone should 
+	do. Then you have to get Allegro 4.2 for this compiler. If you are using
+	(wx)DevC++, you can download a devpak file from devpaks.org. For other
+	compilers: Google is your friend.
+	Then you can compile mandelbrot (do not forget do tell the compiler /
+	linker to include the allegro library!).
+	NOTE: I do not know any compiler for Windows, which supports OpenMP, but
+	perhaps a new MinGW version (not that old one from DevC++) or
+	Microsoft's VisualC++ do, but I do not know. If your compiler does not
+	like the "#pragma omp" lines, you have to remove them from the sources.
+
+Compiling mandelbrot on other Operating systems:
+	I don't have any clue. You are on your own. Good luck!
+
