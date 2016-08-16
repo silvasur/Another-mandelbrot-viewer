@@ -131,7 +131,7 @@ void introtext(BITMAP* canvas)
 	textprintf_centre_ex(canvas, font, (int) canvas->w/2, 10, 0xffffffff, -1,
 	 "simple mandelbrot viewer by");
 	textprintf_centre_ex(canvas, font, (int) canvas->w/2, 22, 0xffffffff, -1,
-	 "Kevin Chabowski (kevin@kch42.de)");
+	 "Laria Carolin Chabowski (laria@laria.me)");
 	textprintf_centre_ex(canvas, font, (int) canvas->w/2, 34, 0xffffffff, -1,
 	 "v 0.5");
 	textprintf_centre_ex(canvas, font, (int) canvas->w/2, 46, 0xffffffff, -1,
@@ -426,7 +426,7 @@ int main()
 			textprintf_ex(buffer, font, 2, SCREEN_H - 12, 0xffffffff, -1,
 			 "X = %lf   Y = %lf", x1 + mouse_x * dppx, y1 + mouse_y * dppx);
 			 textprintf_right_ex(buffer, font, SCREEN_W - 2, SCREEN_H - 12,
-			  0xffffffff, -1, "(c) 2010 by Kevin Chabowski");
+			  0xffffffff, -1, "(c) 2010 by Laria Carolin Chabowski");
 			
 			if(update_fract)
 				textprintf_centre_ex(buffer, font, (int)(SCREEN_W/2),
